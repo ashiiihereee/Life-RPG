@@ -67,11 +67,8 @@ Life RPG is an Android app that makes daily tasks more fun by turning them into 
 - An Android emulator or a physical device (Android 7.0 / API 24 or higher)
 
 ### Run the app
-1. Clone the repository
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   ```
-2. Open the project folder in Android Studio.
+1. Download `mad.zip` from this repository and unzip it.
+2. Open the unzipped project folder in Android Studio.
 3. Wait for Gradle sync to finish.
 4. Add your own Google Maps API key (needed for the Life Map screen). In `app/src/main/res/values/strings.xml`:
    ```xml
@@ -79,7 +76,7 @@ Life RPG is an Android app that makes daily tasks more fun by turning them into 
    ```
 5. Press **Run** and pick an emulator or device.
 
-> The app works without a Maps key, but the Life Map screen will show a blank map.
+> The API key has been removed from the submitted code on purpose. The app works without it, but the Life Map screen will show a blank map.
 
 ### Permissions used
 - `POST_NOTIFICATIONS` – calendar reminders
@@ -97,6 +94,8 @@ Life RPG is an Android app that makes daily tasks more fun by turning them into 
 ---
 
 ## Project Structure
+
+The source code is inside `mad.zip`. Layout of the app module:
 
 ```
 app/src/main/
@@ -130,14 +129,12 @@ app/src/main/
 
 ## Submission Files
 
-Everything submitted for the course is in the [`submission/`](submission) folder:
-
 | File | What it is |
 |------|------------|
-| `LifeRPG_Source.zip` | Zipped project source |
-| `Ashna_Reet_MADProjectReport_LifeRPG.pdf` / `.docx` | Project report |
-| `Ashna_Reet_MADProjectPpt_LifeRPG.pptx` | Project presentation |
-| `Ashna_Reet_MADProjectVideo_LifeRPG.mp4` | Working demo video |
+| [`mad.zip`](mad.zip) | Zipped Android Studio project (source code) |
+| [`Ashna_Reet_MADProjectReport_LifeRPG.pdf`](Ashna_Reet_MADProjectReport_LifeRPG.pdf) / [`.docx`](Ashna_Reet_MADProjectReport_LifeRPG.docx) | Project report |
+| [`Ashna_Reet_MADProjectPpt_LifeRPG.pptx`](Ashna_Reet_MADProjectPpt_LifeRPG.pptx) | Project presentation |
+| [`Ashna_Reet_MADProjectVideo_LideRPG.mp4`](Ashna_Reet_MADProjectVideo_LideRPG.mp4) | Working demo video |
 
 ---
 
